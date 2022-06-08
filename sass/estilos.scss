@@ -1,0 +1,56 @@
+$color1: #fff;
+$color2: rgb(218, 156, 226);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: $color1;
+    height: 50px;
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+
+    div{
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+
+section {
+    height: 300px;
+    width: 1080px;
+    background-color: $color2;
+
+    h3{
+        font-size: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+
+    p{
+        line-height: 30px;
+        margin-bottom: 0%;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+footer{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+}

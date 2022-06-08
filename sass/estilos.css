@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #fff;
+  height: 50px;
+  width: 1080px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 7px 13px;
+  text-decoration: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+section {
+  height: 300px;
+  width: 1080px;
+  background-color: #da9ce2;
+}
+
+section h3 {
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section p {
+  line-height: 25px;
+  margin-bottom: 0%;
+  text-align: center;
+}
+/*# sourceMappingURL=estilos.css.map */
